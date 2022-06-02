@@ -1,5 +1,4 @@
-/* eslint-disable linebreak-style */
-import './styles/style.css';
+import './styles/style.css'; //
 
 const descriptions = [
   {
