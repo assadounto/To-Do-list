@@ -4,7 +4,7 @@
 
 > This project is about testing webpack 
 
-![screenshot]
+![screenshot][]
 
 Additional description about the project and its features.
 
