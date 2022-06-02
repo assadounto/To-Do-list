@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  padding: 0;\r\n  margin: 0;\r\n}", "",{"version":3,"sources":["webpack://./src/styles/style.css"],"names":[],"mappings":"AAAA;EACE,UAAU;EACV,SAAS;AACX","sourcesContent":["* {\r\n  padding: 0;\r\n  margin: 0;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* CSS */\r\n\r\nhtml {\r\n  box-sizing: border-box;\r\n}\r\n\r\n#list-container {\r\n  flex-direction: column;\r\n  align-items: center;\r\n  margin: 0 auto;\r\n  border: 1px solid rgba(220, 220, 220, 1);\r\n  width: 500px;\r\n  max-width: 500px;\r\n  background-color: white;\r\n  box-shadow: 0 0 30px rgba(150, 150, 150, 0.25);\r\n}\r\n\r\n.list-head {\r\n  display: flex;\r\n  margin: 0;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  border-bottom: 1px solid rgba(220, 220, 220, 1);\r\n  padding: 0 1rem;\r\n}\r\n\r\n#icon {\r\n  color: gray;\r\n}\r\n\r\n.input {\r\n  border: none;\r\n  font-size: 1rem;\r\n  padding: 1rem 1rem;\r\n  font-style: italic;\r\n}\r\n\r\n.list {\r\n  display: flex;\r\n  align-items: baseline;\r\n  border-bottom: 1px solid rgba(220, 220, 220, 1);\r\n  border-top: 1px solid rgba(220, 220, 220, 1);\r\n  padding: 0 1rem;\r\n}\r\n\r\n.list p {\r\n  margin-left: 1rem;\r\n}\r\n\r\na {\r\n  margin-left: auto;\r\n  color: gray;\r\n}\r\n\r\n.button {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  padding: 1rem;\r\n  border-bottom: 1px solid rgba(220, 220, 220, 1);\r\n  background-color: rgb(238, 238, 238);\r\n}\r\n\r\nbutton {\r\n  border: none;\r\n  color: gray;\r\n  font-size: 1rem;\r\n}", "",{"version":3,"sources":["webpack://./src/styles/style.css"],"names":[],"mappings":"AAAA,QAAQ;;AAER;EACE,sBAAsB;AACxB;;AAEA;EACE,sBAAsB;EACtB,mBAAmB;EACnB,cAAc;EACd,wCAAwC;EACxC,YAAY;EACZ,gBAAgB;EAChB,uBAAuB;EACvB,8CAA8C;AAChD;;AAEA;EACE,aAAa;EACb,SAAS;EACT,8BAA8B;EAC9B,mBAAmB;EACnB,+CAA+C;EAC/C,eAAe;AACjB;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,YAAY;EACZ,eAAe;EACf,kBAAkB;EAClB,kBAAkB;AACpB;;AAEA;EACE,aAAa;EACb,qBAAqB;EACrB,+CAA+C;EAC/C,4CAA4C;EAC5C,eAAe;AACjB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,iBAAiB;EACjB,WAAW;AACb;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,aAAa;EACb,+CAA+C;EAC/C,oCAAoC;AACtC;;AAEA;EACE,YAAY;EACZ,WAAW;EACX,eAAe;AACjB","sourcesContent":["/* CSS */\r\n\r\nhtml {\r\n  box-sizing: border-box;\r\n}\r\n\r\n#list-container {\r\n  flex-direction: column;\r\n  align-items: center;\r\n  margin: 0 auto;\r\n  border: 1px solid rgba(220, 220, 220, 1);\r\n  width: 500px;\r\n  max-width: 500px;\r\n  background-color: white;\r\n  box-shadow: 0 0 30px rgba(150, 150, 150, 0.25);\r\n}\r\n\r\n.list-head {\r\n  display: flex;\r\n  margin: 0;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  border-bottom: 1px solid rgba(220, 220, 220, 1);\r\n  padding: 0 1rem;\r\n}\r\n\r\n#icon {\r\n  color: gray;\r\n}\r\n\r\n.input {\r\n  border: none;\r\n  font-size: 1rem;\r\n  padding: 1rem 1rem;\r\n  font-style: italic;\r\n}\r\n\r\n.list {\r\n  display: flex;\r\n  align-items: baseline;\r\n  border-bottom: 1px solid rgba(220, 220, 220, 1);\r\n  border-top: 1px solid rgba(220, 220, 220, 1);\r\n  padding: 0 1rem;\r\n}\r\n\r\n.list p {\r\n  margin-left: 1rem;\r\n}\r\n\r\na {\r\n  margin-left: auto;\r\n  color: gray;\r\n}\r\n\r\n.button {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  padding: 1rem;\r\n  border-bottom: 1px solid rgba(220, 220, 220, 1);\r\n  background-color: rgb(238, 238, 238);\r\n}\r\n\r\nbutton {\r\n  border: none;\r\n  color: gray;\r\n  font-size: 1rem;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -614,8 +614,48 @@ __webpack_require__.r(__webpack_exports__);
 /* eslint-disable linebreak-style */
 
 
+const descriptions = [
+  {
+    id: 1,
+    description: 'pray',
+    completed: true,
+  },
+  {
+    id: 2,
+    description: 'Read historybook',
+    completed: true,
+  },
+  {
+    id: 3,
+    description: 'Morning Walk',
+    completed: false,
+  },
+  {
+    id: 4,
+    description: '30 Squats',
+    completed: false,
+  },
+];
+
+const toDo = document.getElementById('todo-list');
+
+function TaskObject() {
+  let workout = '';
+  descriptions.forEach((job) => {
+    workout += `
+              <div class="list">
+                  <input type="checkbox">
+                  <p>${job.description}</p>
+             
+         <a><i class="fa fa-ellipsis-v fa-2x" aria-hidden="true"></i>
+                  </a>
+              </div>`;
+  });
+  toDo.innerHTML = workout;
+}
+TaskObject();
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle045db618f951254997a5.js.map
+//# sourceMappingURL=bundle908a8f4e479382f7e6c2.js.map
