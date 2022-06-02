@@ -2,8 +2,7 @@
 
 #  Project
 
-> This project is about testing webpack on a basic to do list structure
-
+> This project is about a todo app bundling using webpack
 
 Additional description about the project and its features.
 
