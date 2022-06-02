@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* CSS */\r\n\r\nhtml {\r\n  box-sizing: border-box;\r\n}\r\n\r\n#list-container {\r\n  flex-direction: column;\r\n  align-items: center;\r\n  margin: 0 auto;\r\n  border: 1px solid rgba(220, 220, 220, 1);\r\n  width: 500px;\r\n  max-width: 500px;\r\n  background-color: white;\r\n  box-shadow: 0 0 30px rgba(150, 150, 150, 0.25);\r\n}\r\n\r\n.list-head {\r\n  display: flex;\r\n  margin: 0;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  border-bottom: 1px solid rgba(220, 220, 220, 1);\r\n  padding: 0 1rem;\r\n}\r\n\r\n#icon {\r\n  color: gray;\r\n}\r\n\r\n.input {\r\n  border: none;\r\n  font-size: 1rem;\r\n  padding: 1rem 1rem;\r\n  font-style: italic;\r\n}\r\n\r\n.list {\r\n  display: flex;\r\n  align-items: baseline;\r\n  border-bottom: 1px solid rgba(220, 220, 220, 1);\r\n  border-top: 1px solid rgba(220, 220, 220, 1);\r\n  padding: 0 1rem;\r\n}\r\n\r\n.list p {\r\n  margin-left: 1rem;\r\n}\r\n\r\na {\r\n  margin-left: auto;\r\n  color: gray;\r\n}\r\n\r\n.button {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  padding: 1rem;\r\n  border-bottom: 1px solid rgba(220, 220, 220, 1);\r\n  background-color: rgb(238, 238, 238);\r\n}\r\n\r\nbutton {\r\n  border: none;\r\n  color: gray;\r\n  font-size: 1rem;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/styles/style.css"],"names":[],"mappings":"AAAA,QAAQ;;AAER;EACE,sBAAsB;AACxB;;AAEA;EACE,sBAAsB;EACtB,mBAAmB;EACnB,cAAc;EACd,wCAAwC;EACxC,YAAY;EACZ,gBAAgB;EAChB,uBAAuB;EACvB,8CAA8C;AAChD;;AAEA;EACE,aAAa;EACb,SAAS;EACT,8BAA8B;EAC9B,mBAAmB;EACnB,+CAA+C;EAC/C,eAAe;AACjB;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,YAAY;EACZ,eAAe;EACf,kBAAkB;EAClB,kBAAkB;AACpB;;AAEA;EACE,aAAa;EACb,qBAAqB;EACrB,+CAA+C;EAC/C,4CAA4C;EAC5C,eAAe;AACjB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,iBAAiB;EACjB,WAAW;AACb;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,aAAa;EACb,+CAA+C;EAC/C,oCAAoC;AACtC;;AAEA;EACE,YAAY;EACZ,WAAW;EACX,eAAe;AACjB","sourcesContent":["/* CSS */\r\n\r\nhtml {\r\n  box-sizing: border-box;\r\n}\r\n\r\n#list-container {\r\n  flex-direction: column;\r\n  align-items: center;\r\n  margin: 0 auto;\r\n  border: 1px solid rgba(220, 220, 220, 1);\r\n  width: 500px;\r\n  max-width: 500px;\r\n  background-color: white;\r\n  box-shadow: 0 0 30px rgba(150, 150, 150, 0.25);\r\n}\r\n\r\n.list-head {\r\n  display: flex;\r\n  margin: 0;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  border-bottom: 1px solid rgba(220, 220, 220, 1);\r\n  padding: 0 1rem;\r\n}\r\n\r\n#icon {\r\n  color: gray;\r\n}\r\n\r\n.input {\r\n  border: none;\r\n  font-size: 1rem;\r\n  padding: 1rem 1rem;\r\n  font-style: italic;\r\n}\r\n\r\n.list {\r\n  display: flex;\r\n  align-items: baseline;\r\n  border-bottom: 1px solid rgba(220, 220, 220, 1);\r\n  border-top: 1px solid rgba(220, 220, 220, 1);\r\n  padding: 0 1rem;\r\n}\r\n\r\n.list p {\r\n  margin-left: 1rem;\r\n}\r\n\r\na {\r\n  margin-left: auto;\r\n  color: gray;\r\n}\r\n\r\n.button {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  padding: 1rem;\r\n  border-bottom: 1px solid rgba(220, 220, 220, 1);\r\n  background-color: rgb(238, 238, 238);\r\n}\r\n\r\nbutton {\r\n  border: none;\r\n  color: gray;\r\n  font-size: 1rem;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: 'Open Sans', sans-serif;\r\n  font-size: 15px;\r\n  line-height: 20px;\r\n}\r\n\r\na {\r\n  text-decoration: none;\r\n}\r\n\r\nul li {\r\n  list-style: none;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  min-height: 100vh;\r\n}\r\n\r\nbody {\r\n  background-color: #f4f5f7;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\nmain {\r\n  width: 100%;\r\n  display: flex;\r\n  flex-grow: 2;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\nbutton {\r\n  border: none;\r\n  outline: none;\r\n  appearance: none;\r\n  background-color: transparent;\r\n  cursor: pointer;\r\n}\r\n\r\nbutton:hover {\r\n  opacity: 0.8;\r\n}\r\n\r\nbutton:active {\r\n  color: black;\r\n  opacity: 1;\r\n}\r\n\r\n.container {\r\n  background-color: #f1f2f5;\r\n  border-radius: 3px;\r\n  box-sizing: border-box;\r\n  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);\r\n  max-width: 500px;\r\n  width: 100%;\r\n  margin: 24px;\r\n}\r\n\r\n.page-footer {\r\n  display: flex;\r\n  margin: auto;\r\n  padding: 24px;\r\n}\r\n\r\n.list-header {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  border-bottom: 1px solid rgba(0, 0, 0, 0.08);\r\n  background-color: white;\r\n}\r\n\r\n.list-title {\r\n  line-height: 20px;\r\n  font-weight: 400;\r\n  padding: 1rem;\r\n}\r\n\r\n.input-form {\r\n  display: flex;\r\n  background-color: white;\r\n  border-bottom: 1px solid rgba(0, 0, 0, 0.08);\r\n}\r\n\r\n.add-todo-input {\r\n  border: none;\r\n  padding: 0 40px 0 1rem;\r\n  line-height: 50px;\r\n  height: 50px;\r\n  outline: none;\r\n  box-shadow: none;\r\n  width: 100%;\r\n  font-weight: 300;\r\n  font-style: italic;\r\n}\r\n\r\n.todo {\r\n  position: relative;\r\n  font-size: 1rem;\r\n  padding-left: 15px;\r\n  border-bottom: 1px solid rgba(0, 0, 0, 0.08);\r\n  box-sizing: content-box;\r\n  display: flex;\r\n  align-items: center;\r\n  background-color: white;\r\n}\r\n\r\n.dragging {\r\n  border: 2px solid royalblue;\r\n}\r\n\r\n.todo-completed .toggle .icon {\r\n  color: #2e8ae6;\r\n}\r\n\r\n.edit {\r\n  height: 20px;\r\n  line-height: 20px;\r\n  width: 100%;\r\n  padding: 15px 0;\r\n  border: none;\r\n  outline: none;\r\n  font-weight: 300;\r\n  resize: none;\r\n  box-shadow: none;\r\n}\r\n\r\n.todo-completed .edit {\r\n  text-decoration: line-through;\r\n  color: rgba(0, 0, 0, 0.45);\r\n}\r\n\r\n.edit:focus {\r\n  text-decoration: none;\r\n  color: inherit;\r\n}\r\n\r\n.list-footer {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\n.clear-button {\r\n  margin: 1rem auto;\r\n  font-weight: 300;\r\n}\r\n\r\n.clear-button:hover {\r\n  text-decoration: underline;\r\n}\r\n\r\n.icon-button {\r\n  line-height: 50px;\r\n  font-size: 18px;\r\n  color: #333;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  padding: 12px;\r\n}\r\n\r\n.toggle {\r\n  padding: 0;\r\n  margin: 0;\r\n  margin-right: 17px;\r\n  opacity: 1;\r\n  color: #c1c1c3;\r\n}\r\n\r\n.drag-button {\r\n  cursor: all-scroll;\r\n}\r\n\r\n.hide {\r\n  display: none;\r\n}\r\n\r\n.opacity-2 {\r\n  opacity: 0.2;\r\n}\r\n\r\n.opacity-5 {\r\n  opacity: 0.5;\r\n}\r\n\r\n.opacity-0 {\r\n  opacity: 0;\r\n}\r\n\r\n.color-gray {\r\n  color: #515664;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/styles/style.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,oCAAoC;EACpC,eAAe;EACf,iBAAiB;AACnB;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;;EAEE,iBAAiB;AACnB;;AAEA;EACE,yBAAyB;EACzB,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,WAAW;EACX,aAAa;EACb,YAAY;EACZ,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,gBAAgB;EAChB,6BAA6B;EAC7B,eAAe;AACjB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,YAAY;EACZ,UAAU;AACZ;;AAEA;EACE,yBAAyB;EACzB,kBAAkB;EAClB,sBAAsB;EACtB,sCAAsC;EACtC,gBAAgB;EAChB,WAAW;EACX,YAAY;AACd;;AAEA;EACE,aAAa;EACb,YAAY;EACZ,aAAa;AACf;;AAEA;EACE,aAAa;EACb,8BAA8B;EAC9B,mBAAmB;EACnB,4CAA4C;EAC5C,uBAAuB;AACzB;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;EAChB,aAAa;AACf;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,4CAA4C;AAC9C;;AAEA;EACE,YAAY;EACZ,sBAAsB;EACtB,iBAAiB;EACjB,YAAY;EACZ,aAAa;EACb,gBAAgB;EAChB,WAAW;EACX,gBAAgB;EAChB,kBAAkB;AACpB;;AAEA;EACE,kBAAkB;EAClB,eAAe;EACf,kBAAkB;EAClB,4CAA4C;EAC5C,uBAAuB;EACvB,aAAa;EACb,mBAAmB;EACnB,uBAAuB;AACzB;;AAEA;EACE,2BAA2B;AAC7B;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,YAAY;EACZ,iBAAiB;EACjB,WAAW;EACX,eAAe;EACf,YAAY;EACZ,aAAa;EACb,gBAAgB;EAChB,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,6BAA6B;EAC7B,0BAA0B;AAC5B;;AAEA;EACE,qBAAqB;EACrB,cAAc;AAChB;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;AAClB;;AAEA;EACE,0BAA0B;AAC5B;;AAEA;EACE,iBAAiB;EACjB,eAAe;EACf,WAAW;EACX,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,aAAa;AACf;;AAEA;EACE,UAAU;EACV,SAAS;EACT,kBAAkB;EAClB,UAAU;EACV,cAAc;AAChB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,cAAc;AAChB","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: 'Open Sans', sans-serif;\r\n  font-size: 15px;\r\n  line-height: 20px;\r\n}\r\n\r\na {\r\n  text-decoration: none;\r\n}\r\n\r\nul li {\r\n  list-style: none;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  min-height: 100vh;\r\n}\r\n\r\nbody {\r\n  background-color: #f4f5f7;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\nmain {\r\n  width: 100%;\r\n  display: flex;\r\n  flex-grow: 2;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\nbutton {\r\n  border: none;\r\n  outline: none;\r\n  appearance: none;\r\n  background-color: transparent;\r\n  cursor: pointer;\r\n}\r\n\r\nbutton:hover {\r\n  opacity: 0.8;\r\n}\r\n\r\nbutton:active {\r\n  color: black;\r\n  opacity: 1;\r\n}\r\n\r\n.container {\r\n  background-color: #f1f2f5;\r\n  border-radius: 3px;\r\n  box-sizing: border-box;\r\n  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);\r\n  max-width: 500px;\r\n  width: 100%;\r\n  margin: 24px;\r\n}\r\n\r\n.page-footer {\r\n  display: flex;\r\n  margin: auto;\r\n  padding: 24px;\r\n}\r\n\r\n.list-header {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  border-bottom: 1px solid rgba(0, 0, 0, 0.08);\r\n  background-color: white;\r\n}\r\n\r\n.list-title {\r\n  line-height: 20px;\r\n  font-weight: 400;\r\n  padding: 1rem;\r\n}\r\n\r\n.input-form {\r\n  display: flex;\r\n  background-color: white;\r\n  border-bottom: 1px solid rgba(0, 0, 0, 0.08);\r\n}\r\n\r\n.add-todo-input {\r\n  border: none;\r\n  padding: 0 40px 0 1rem;\r\n  line-height: 50px;\r\n  height: 50px;\r\n  outline: none;\r\n  box-shadow: none;\r\n  width: 100%;\r\n  font-weight: 300;\r\n  font-style: italic;\r\n}\r\n\r\n.todo {\r\n  position: relative;\r\n  font-size: 1rem;\r\n  padding-left: 15px;\r\n  border-bottom: 1px solid rgba(0, 0, 0, 0.08);\r\n  box-sizing: content-box;\r\n  display: flex;\r\n  align-items: center;\r\n  background-color: white;\r\n}\r\n\r\n.dragging {\r\n  border: 2px solid royalblue;\r\n}\r\n\r\n.todo-completed .toggle .icon {\r\n  color: #2e8ae6;\r\n}\r\n\r\n.edit {\r\n  height: 20px;\r\n  line-height: 20px;\r\n  width: 100%;\r\n  padding: 15px 0;\r\n  border: none;\r\n  outline: none;\r\n  font-weight: 300;\r\n  resize: none;\r\n  box-shadow: none;\r\n}\r\n\r\n.todo-completed .edit {\r\n  text-decoration: line-through;\r\n  color: rgba(0, 0, 0, 0.45);\r\n}\r\n\r\n.edit:focus {\r\n  text-decoration: none;\r\n  color: inherit;\r\n}\r\n\r\n.list-footer {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\n.clear-button {\r\n  margin: 1rem auto;\r\n  font-weight: 300;\r\n}\r\n\r\n.clear-button:hover {\r\n  text-decoration: underline;\r\n}\r\n\r\n.icon-button {\r\n  line-height: 50px;\r\n  font-size: 18px;\r\n  color: #333;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  padding: 12px;\r\n}\r\n\r\n.toggle {\r\n  padding: 0;\r\n  margin: 0;\r\n  margin-right: 17px;\r\n  opacity: 1;\r\n  color: #c1c1c3;\r\n}\r\n\r\n.drag-button {\r\n  cursor: all-scroll;\r\n}\r\n\r\n.hide {\r\n  display: none;\r\n}\r\n\r\n.opacity-2 {\r\n  opacity: 0.2;\r\n}\r\n\r\n.opacity-5 {\r\n  opacity: 0.5;\r\n}\r\n\r\n.opacity-0 {\r\n  opacity: 0;\r\n}\r\n\r\n.color-gray {\r\n  color: #515664;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -528,6 +528,324 @@ function styleTagTransform(css, styleElement) {
 
 module.exports = styleTagTransform;
 
+/***/ }),
+
+/***/ "./src/modules/components.js":
+/*!***********************************!*\
+  !*** ./src/modules/components.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ addItemsToDOM),
+/* harmony export */   "listItemComponent": () => (/* binding */ listItemComponent)
+/* harmony export */ });
+/* harmony import */ var _todo_store_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./todo-store.js */ "./src/modules/todo-store.js");
+
+
+function iconButton(name) {
+  const node = document.createElement('button');
+  node.classList.add('icon-button');
+
+  const icon = document.createElement('span');
+  icon.innerText = name;
+  icon.classList.add('material-icons', 'icon');
+
+  node.appendChild(icon);
+  return node;
+}
+
+function listItemComponent({
+  index, description, completed, onToggle, onSwap, onEdit, onDelete,
+}) {
+  const node = document.createElement('li');
+  node.classList.add('todo');
+
+  // Drag and Drop listeners
+  node.addEventListener('dragstart', (event) => {
+    node.classList.add('dragging');
+    setTimeout(() => {
+      node.classList.add('opacity-0');
+    }, 0);
+    event.dataTransfer.setData('index', index);
+  });
+
+  node.addEventListener('dragover', (event) => {
+    event.preventDefault();
+    node.classList.add('opacity-2');
+  });
+
+  node.addEventListener('dragleave', () => {
+    node.classList.remove('opacity-2');
+  });
+
+  node.addEventListener('dragend', () => {
+    node.setAttribute('draggable', false);
+    node.classList.remove('opacity-0', 'dragging');
+  });
+
+  node.addEventListener('drop', (event) => {
+    const source = event.dataTransfer.getData('index');
+    const destination = index;
+    onSwap(source, destination);
+  });
+
+  // Todo toggle checkbox
+  const checkbox = iconButton(completed ? 'done' : 'check_box_outline_blank');
+  checkbox.classList.add('toggle');
+  if (completed) {
+    node.classList.add('todo-completed');
+    checkbox.classList.add('todo-completed');
+  }
+  checkbox.addEventListener('click', () => {
+    onToggle(index);
+  });
+
+  // Todo description input
+  const text = document.createElement('input');
+  text.value = description;
+  text.classList.add('edit');
+  text.addEventListener('keyup', (event) => {
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      onEdit(index, event.target.value);
+    }
+  });
+
+  // Drag handle
+  const dragButton = iconButton('more_vert');
+  dragButton.classList.add('drag-button', 'opacity-2');
+  dragButton.addEventListener('mousedown', () => {
+    node.setAttribute('draggable', true);
+  });
+
+  // Delete Todo item
+  const deleteButton = iconButton('delete_outline');
+  deleteButton.classList.add('opacity-5', 'hide', 'delete-btn');
+  deleteButton.addEventListener('mousedown', () => {
+    onDelete(index);
+  });
+
+  node.appendChild(checkbox);
+  node.appendChild(text);
+  node.appendChild(deleteButton);
+  node.appendChild(dragButton);
+
+  const toggleButtons = () => {
+    dragButton.classList.toggle('hide');
+    deleteButton.classList.toggle('hide');
+  };
+
+  text.addEventListener('focus', toggleButtons);
+  text.addEventListener('blur', (event) => {
+    toggleButtons();
+    onEdit(index, event.target.value);
+  });
+
+  return node;
+}
+
+function addItemsToDOM(items = []) {
+  const list = document.getElementById('items');
+  list.innerHTML = '';
+  items.forEach((item) => {
+    list.appendChild(listItemComponent({
+      ...item,
+      onToggle: (index) => _todo_store_js__WEBPACK_IMPORTED_MODULE_0__["default"].toggleTodo(index),
+      onSwap: (source, dest) => _todo_store_js__WEBPACK_IMPORTED_MODULE_0__["default"].swapTodos(source, dest),
+      onEdit: (index, text) => _todo_store_js__WEBPACK_IMPORTED_MODULE_0__["default"].editTodo(index, text),
+      onDelete: (index) => _todo_store_js__WEBPACK_IMPORTED_MODULE_0__["default"].deleteTodo(index),
+    }));
+  });
+}
+
+/***/ }),
+
+/***/ "./src/modules/store.js":
+/*!******************************!*\
+  !*** ./src/modules/store.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ADD_TODO": () => (/* binding */ ADD_TODO),
+/* harmony export */   "CLEAR_COMPLETED": () => (/* binding */ CLEAR_COMPLETED),
+/* harmony export */   "DELETE_TODO": () => (/* binding */ DELETE_TODO),
+/* harmony export */   "EDIT_TODO": () => (/* binding */ EDIT_TODO),
+/* harmony export */   "LOAD_TODOS": () => (/* binding */ LOAD_TODOS),
+/* harmony export */   "SWAP_TODOS": () => (/* binding */ SWAP_TODOS),
+/* harmony export */   "TOGGLE": () => (/* binding */ TOGGLE),
+/* harmony export */   "default": () => (/* binding */ createStore)
+/* harmony export */ });
+const TOGGLE = 'action/toggle';
+const LOAD_TODOS = 'action/load_todos';
+const SWAP_TODOS = 'action/swap';
+const ADD_TODO = 'action/add_todo';
+const EDIT_TODO = 'action/edit_description';
+const DELETE_TODO = 'action/delete_todo';
+const CLEAR_COMPLETED = 'action/clear_completed';
+
+function createStore() {
+  let state = [];
+  const subscribers = [];
+
+  const getState = () => state;
+
+  const subscribe = (subscriber) => subscribers.push(subscriber);
+
+  const dispatch = (action) => {
+    switch (action.type) {
+      case TOGGLE: {
+        const todo = state.find((item) => item.index === action.index);
+        todo.completed = !todo.completed;
+        break;
+      }
+      case LOAD_TODOS: {
+        state = action.items;
+        break;
+      }
+      case SWAP_TODOS: {
+        // Get values
+        const src = state[action.source];
+        const dest = state[action.dest];
+
+        // Swap positions
+        state[action.source] = dest;
+        state[action.dest] = src;
+
+        // Update indexes
+        dest.index = action.source;
+        src.index = action.dest;
+        break;
+      }
+      case ADD_TODO: {
+        if (action.text.trim()) {
+          const todo = {
+            index: state.length,
+            description: action.text,
+            completed: false,
+          };
+          state.push(todo);
+        }
+        break;
+      }
+      case EDIT_TODO: {
+        const todo = state[action.index];
+        if (todo && action.text.trim()) {
+          todo.description = action.text;
+        }
+        break;
+      }
+      case DELETE_TODO: {
+        state = state.filter((todo) => todo.index !== action.index)
+          .map((item, index) => ({ ...item, index }));
+        break;
+      }
+      case CLEAR_COMPLETED: {
+        state = state.filter((todo) => !todo.completed).map((item, index) => ({ ...item, index }));
+        break;
+      }
+      default:
+        break;
+    }
+
+    subscribers.forEach((subscriber) => subscriber());
+  };
+
+  return {
+    getState,
+    subscribe,
+    dispatch,
+  };
+}
+
+/***/ }),
+
+/***/ "./src/modules/todo-store.js":
+/*!***********************************!*\
+  !*** ./src/modules/todo-store.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Store": () => (/* binding */ Store),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _store_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./store.js */ "./src/modules/store.js");
+
+
+class TodoStore {
+  constructor() {
+    this.store = (0,_store_js__WEBPACK_IMPORTED_MODULE_0__["default"])();
+  }
+
+  get todos() {
+    return this.store.getState();
+  }
+
+  toggleTodo(index) {
+    this.store.dispatch({
+      type: _store_js__WEBPACK_IMPORTED_MODULE_0__.TOGGLE,
+      index,
+    });
+  }
+
+  loadTodos(items) {
+    this.store.dispatch({
+      type: _store_js__WEBPACK_IMPORTED_MODULE_0__.LOAD_TODOS,
+      items,
+    });
+  }
+
+  swapTodos(source, dest) {
+    this.store.dispatch({
+      type: _store_js__WEBPACK_IMPORTED_MODULE_0__.SWAP_TODOS,
+      source,
+      dest,
+    });
+  }
+
+  addTodo(text) {
+    this.store.dispatch({
+      type: _store_js__WEBPACK_IMPORTED_MODULE_0__.ADD_TODO,
+      text,
+    });
+  }
+
+  editTodo(index, text) {
+    this.store.dispatch({
+      type: _store_js__WEBPACK_IMPORTED_MODULE_0__.EDIT_TODO,
+      index,
+      text,
+    });
+  }
+
+  deleteTodo(index) {
+    this.store.dispatch({
+      type: _store_js__WEBPACK_IMPORTED_MODULE_0__.DELETE_TODO,
+      index,
+    });
+  }
+
+  clearCompleted() {
+    this.store.dispatch({
+      type: _store_js__WEBPACK_IMPORTED_MODULE_0__.CLEAR_COMPLETED,
+    });
+  }
+
+  onUpdate(callback) {
+    this.store.subscribe(callback);
+  }
+}
+
+const Store = TodoStore;
+
+const store = new TodoStore();
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (store);
+
 /***/ })
 
 /******/ 	});
@@ -610,52 +928,39 @@ var __webpack_exports__ = {};
   !*** ./src/index.js ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/style.css */ "./src/styles/style.css");
-/* eslint-disable linebreak-style */
+/* harmony import */ var _modules_components_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/components.js */ "./src/modules/components.js");
+/* harmony import */ var _modules_todo_store_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/todo-store.js */ "./src/modules/todo-store.js");
+/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/style.css */ "./src/styles/style.css");
 
 
-const descriptions = [
-  {
-    id: 1,
-    description: 'pray',
-    completed: true,
-  },
-  {
-    id: 2,
-    description: 'Read historybook',
-    completed: true,
-  },
-  {
-    id: 3,
-    description: 'Morning Walk',
-    completed: false,
-  },
-  {
-    id: 4,
-    description: '30 Squats',
-    completed: false,
-  },
-];
 
-const toDo = document.getElementById('todo-list');
 
-function TaskObject() {
-  let workout = '';
-  descriptions.forEach((job) => {
-    workout += `
-              <div class="list">
-                  <input type="checkbox">
-                  <p>${job.description}</p>
-             
-         <a><i class="fa fa-ellipsis-v fa-2x" aria-hidden="true"></i>
-                  </a>
-              </div>`;
+const form = document.getElementById('add-todo');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const description = form.elements[0].value;
+  _modules_todo_store_js__WEBPACK_IMPORTED_MODULE_1__["default"].addTodo(description);
+  form.elements[0].value = '';
+});
+
+window.addEventListener('load', () => {
+  document.getElementById('clear-btn').addEventListener('click', () => {
+    _modules_todo_store_js__WEBPACK_IMPORTED_MODULE_1__["default"].clearCompleted();
   });
-  toDo.innerHTML = workout;
-}
-TaskObject();
+
+  const STORE_KEY = 'localstorage/todos';
+
+  _modules_todo_store_js__WEBPACK_IMPORTED_MODULE_1__["default"].onUpdate(() => {
+    (0,_modules_components_js__WEBPACK_IMPORTED_MODULE_0__["default"])(_modules_todo_store_js__WEBPACK_IMPORTED_MODULE_1__["default"].todos);
+  });
+  _modules_todo_store_js__WEBPACK_IMPORTED_MODULE_1__["default"].onUpdate(() => {
+    localStorage.setItem(STORE_KEY, JSON.stringify(_modules_todo_store_js__WEBPACK_IMPORTED_MODULE_1__["default"].todos));
+  });
+  const saved = localStorage.getItem(STORE_KEY);
+  _modules_todo_store_js__WEBPACK_IMPORTED_MODULE_1__["default"].loadTodos(saved ? JSON.parse(saved) : []);
+});
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle2f57a461dbe02a4acdb7.js.map
+//# sourceMappingURL=bundlee66153cd915720584ea6.js.map
