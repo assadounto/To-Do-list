@@ -13,11 +13,11 @@ Additional description about the project and its features.
 - HTML 
 - CSS 
 - Javascript 
--Webpack
+- Webpack
 
 ## Live Demo
 
-[Live Demo Link](https://assadounto.github.io/WEBPACK-STATER/)
+[Live Demo Link](https://assadounto.github.io/)
 
 
 ## Getting Started
