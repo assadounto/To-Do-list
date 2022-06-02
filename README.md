@@ -2,9 +2,8 @@
 
 #  Project
 
-> This project is about testing webpack 
+> This project is about testing webpack on a basic to do list structure
 
-![screenshot][]
 
 Additional description about the project and its features.
 
@@ -17,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://assadounto.github.io/)
+[Live Demo Link](https://assadounto.github.io/To-Do-list/)
 
 
 ## Getting Started
@@ -30,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
--clone the repository using (https://github.com/assadounto/WEBPACK-STATER)
+-clone the repository using (https://github.com/assadounto/To-Do-list/)
 
 ### Install
 -Any HTML text approved editor, etc. VS Code, Brackets, Atom
