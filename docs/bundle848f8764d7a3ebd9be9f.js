@@ -662,10 +662,95 @@ function addItemsToDOM(items = []) {
 
 /***/ }),
 
-/***/ "./src/modules/store.js":
-/*!******************************!*\
-  !*** ./src/modules/store.js ***!
-  \******************************/
+/***/ "./src/modules/todo-store.js":
+/*!***********************************!*\
+  !*** ./src/modules/todo-store.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Store": () => (/* binding */ Store),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _todopush_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./todopush.js */ "./src/modules/todopush.js");
+
+
+class TodoStore {
+  constructor() {
+    this.store = (0,_todopush_js__WEBPACK_IMPORTED_MODULE_0__["default"])();
+  }
+
+  get todos() {
+    return this.store.getState();
+  }
+
+  toggleTodo(index) {
+    this.store.dispatch({
+      type: _todopush_js__WEBPACK_IMPORTED_MODULE_0__.TOGGLE,
+      index,
+    });
+  }
+
+  loadTodos(items) {
+    this.store.dispatch({
+      type: _todopush_js__WEBPACK_IMPORTED_MODULE_0__.LOAD_TODOS,
+      items,
+    });
+  }
+
+  swapTodos(source, dest) {
+    this.store.dispatch({
+      type: _todopush_js__WEBPACK_IMPORTED_MODULE_0__.SWAP_TODOS,
+      source,
+      dest,
+    });
+  }
+
+  addTodo(text) {
+    this.store.dispatch({
+      type: _todopush_js__WEBPACK_IMPORTED_MODULE_0__.ADD_TODO,
+      text,
+    });
+  }
+
+  editTodo(index, text) {
+    this.store.dispatch({
+      type: _todopush_js__WEBPACK_IMPORTED_MODULE_0__.EDIT_TODO,
+      index,
+      text,
+    });
+  }
+
+  deleteTodo(index) {
+    this.store.dispatch({
+      type: _todopush_js__WEBPACK_IMPORTED_MODULE_0__.DELETE_TODO,
+      index,
+    });
+  }
+
+  clearCompleted() {
+    this.store.dispatch({
+      type: _todopush_js__WEBPACK_IMPORTED_MODULE_0__.CLEAR_COMPLETED,
+    });
+  }
+
+  onUpdate(callback) {
+    this.store.subscribe(callback);
+  }
+}
+
+const Store = TodoStore;
+
+const store = new TodoStore();
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (store);
+
+/***/ }),
+
+/***/ "./src/modules/todopush.js":
+/*!*********************************!*\
+  !*** ./src/modules/todopush.js ***!
+  \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -760,91 +845,6 @@ function createStore() {
     dispatch,
   };
 }
-
-/***/ }),
-
-/***/ "./src/modules/todo-store.js":
-/*!***********************************!*\
-  !*** ./src/modules/todo-store.js ***!
-  \***********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Store": () => (/* binding */ Store),
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _store_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./store.js */ "./src/modules/store.js");
-
-
-class TodoStore {
-  constructor() {
-    this.store = (0,_store_js__WEBPACK_IMPORTED_MODULE_0__["default"])();
-  }
-
-  get todos() {
-    return this.store.getState();
-  }
-
-  toggleTodo(index) {
-    this.store.dispatch({
-      type: _store_js__WEBPACK_IMPORTED_MODULE_0__.TOGGLE,
-      index,
-    });
-  }
-
-  loadTodos(items) {
-    this.store.dispatch({
-      type: _store_js__WEBPACK_IMPORTED_MODULE_0__.LOAD_TODOS,
-      items,
-    });
-  }
-
-  swapTodos(source, dest) {
-    this.store.dispatch({
-      type: _store_js__WEBPACK_IMPORTED_MODULE_0__.SWAP_TODOS,
-      source,
-      dest,
-    });
-  }
-
-  addTodo(text) {
-    this.store.dispatch({
-      type: _store_js__WEBPACK_IMPORTED_MODULE_0__.ADD_TODO,
-      text,
-    });
-  }
-
-  editTodo(index, text) {
-    this.store.dispatch({
-      type: _store_js__WEBPACK_IMPORTED_MODULE_0__.EDIT_TODO,
-      index,
-      text,
-    });
-  }
-
-  deleteTodo(index) {
-    this.store.dispatch({
-      type: _store_js__WEBPACK_IMPORTED_MODULE_0__.DELETE_TODO,
-      index,
-    });
-  }
-
-  clearCompleted() {
-    this.store.dispatch({
-      type: _store_js__WEBPACK_IMPORTED_MODULE_0__.CLEAR_COMPLETED,
-    });
-  }
-
-  onUpdate(callback) {
-    this.store.subscribe(callback);
-  }
-}
-
-const Store = TodoStore;
-
-const store = new TodoStore();
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (store);
 
 /***/ })
 
@@ -963,4 +963,4 @@ window.addEventListener('load', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=bundlee66153cd915720584ea6.js.map
+//# sourceMappingURL=bundle848f8764d7a3ebd9be9f.js.map
