@@ -1,42 +1,28 @@
-import './styles/style.css'; //
+import renderItems from './modules/components.js';
+import store from './modules/todo-store.js';
+import './styles/style.css';
 
-const descriptions = [
-  {
-    id: 1,
-    description: 'pray',
-    completed: true,
-  },
-  {
-    id: 2,
-    description: 'Read historybook',
-    completed: true,
-  },
-  {
-    id: 3,
-    description: 'Morning Walk',
-    completed: false,
-  },
-  {
-    id: 4,
-    description: '30 Squats',
-    completed: false,
-  },
-];
+const form = document.getElementById('add-todo');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const description = form.elements[0].value;
+  store.addTodo(description);
+  form.elements[0].value = '';
+});
 
-const toDo = document.getElementById('todo-list');
-
-function TaskObject() {
-  let workout = '';
-  descriptions.forEach((job) => {
-    workout += `
-              <div class="list">
-                  <input type="checkbox">
-                  <p>${job.description}</p>
-             
-         <a><i class="fa fa-ellipsis-v fa-2x" aria-hidden="true"></i>
-                  </a>
-              </div>`;
+window.addEventListener('load', () => {
+  document.getElementById('clear-btn').addEventListener('click', () => {
+    store.clearCompleted();
   });
-  toDo.innerHTML = workout;
-}
-TaskObject();
+
+  const STORE_KEY = 'localstorage/todos';
+
+  store.onUpdate(() => {
+    renderItems(store.todos);
+  });
+  store.onUpdate(() => {
+    localStorage.setItem(STORE_KEY, JSON.stringify(store.todos));
+  });
+  const saved = localStorage.getItem(STORE_KEY);
+  store.loadTodos(saved ? JSON.parse(saved) : []);
+});
