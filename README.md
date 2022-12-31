@@ -2,9 +2,7 @@
 
 #  Project
 
-> This project is about a todo app bundling using webpack
-
-Additional description about the project and its features.
+ This is a todo app which users can store and edit their Todo Tasks. Users can also change the order of their todos
 
 ## Built With
 
@@ -24,15 +22,16 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
--Local machine web browser
+- Knowlegdge about how to run webpack bundled apps
+- Basic knowlegde of text editors eg. VS Code, Brackets, Atom
 
 ### Setup
 
--clone the repository using (https://github.com/assadounto/To-Do-list/)
+- Clone the repository  ```git clone https://github.com/assadounto/To-Do-list.git```
+- Change directory into ```cd To-Do-list```
 
-### Install
--Any HTML text approved editor, etc. VS Code, Brackets, Atom
-
+### Run
+- Run app with your favourite text editor
 
 ## Authors
 
